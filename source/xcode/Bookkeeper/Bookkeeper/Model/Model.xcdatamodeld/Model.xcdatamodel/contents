@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B42" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Book" representedClassName="Book" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="authorLastNameSortKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="pageLastRead" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="pageStart" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="pageTotalCount" optional="YES" attributeType="Integer 32" minValueString="0" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleSortKey" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bookGroupSortedBooks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BookGroupSortedBook" inverseName="book" inverseEntity="BookGroupSortedBook" syncable="YES"/>
+    </entity>
+    <entity name="BookGroup" representedClassName="BookGroup" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nameSortKey" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sortedBooks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BookGroupSortedBook" inverseName="bookGroup" inverseEntity="BookGroupSortedBook" syncable="YES"/>
+    </entity>
+    <entity name="BookGroupSortedBook" representedClassName="BookGroupSortedBook" syncable="YES">
+        <attribute name="sortIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="book" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Book" inverseName="bookGroupSortedBooks" inverseEntity="Book" syncable="YES"/>
+        <relationship name="bookGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="BookGroup" inverseName="sortedBooks" inverseEntity="BookGroup" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="book"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <elements>
+        <element name="Book" positionX="-5042" positionY="-333" width="128" height="178"/>
+        <element name="BookGroup" positionX="-4700" positionY="-238" width="128" height="103"/>
+        <element name="BookGroupSortedBook" positionX="-4878" positionY="-79" width="128" height="88"/>
+    </elements>
+</model>

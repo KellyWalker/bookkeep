@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2C707A4189CBD0100E7A379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707A3189CBD0100E7A379 /* Foundation.framework */; };
+		A2C707A6189CBD0100E7A379 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707A5189CBD0100E7A379 /* CoreGraphics.framework */; };
+		A2C707A8189CBD0100E7A379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707A7189CBD0100E7A379 /* UIKit.framework */; };
+		A2C707AE189CBD0100E7A379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C707AC189CBD0100E7A379 /* InfoPlist.strings */; };
+		A2C707B0189CBD0100E7A379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707AF189CBD0100E7A379 /* main.m */; };
+		A2C707B6189CBD0100E7A379 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C707B5189CBD0100E7A379 /* Images.xcassets */; };
+		A2C707BD189CBD0100E7A379 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707BC189CBD0100E7A379 /* XCTest.framework */; };
+		A2C707BE189CBD0100E7A379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707A3189CBD0100E7A379 /* Foundation.framework */; };
+		A2C707BF189CBD0100E7A379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C707A7189CBD0100E7A379 /* UIKit.framework */; };
+		A2C707C7189CBD0100E7A379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C707C5189CBD0100E7A379 /* InfoPlist.strings */; };
+		A2C707C9189CBD0100E7A379 /* BookkeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707C8189CBD0100E7A379 /* BookkeeperTests.m */; };
+		A2C707E5189CBDA800E7A379 /* AddOrEditBookGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707D3189CBDA800E7A379 /* AddOrEditBookGroupViewController.m */; };
+		A2C707E6189CBDA800E7A379 /* AddOrEditBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707D5189CBDA800E7A379 /* AddOrEditBookViewController.m */; };
+		A2C707E7189CBDA800E7A379 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707D7189CBDA800E7A379 /* AppDelegate.m */; };
+		A2C707E8189CBDA800E7A379 /* BookGroupBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707DA189CBDA800E7A379 /* BookGroupBooksViewController.m */; };
+		A2C707E9189CBDA800E7A379 /* BookGroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707DC189CBDA800E7A379 /* BookGroupTableViewCell.m */; };
+		A2C707EB189CBDA800E7A379 /* BooksFetchedResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707E0189CBDA800E7A379 /* BooksFetchedResultsViewController.m */; };
+		A2C707EC189CBDA800E7A379 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707E2189CBDA800E7A379 /* BookTableViewCell.m */; };
+		A2C707ED189CBDA800E7A379 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707E4189CBDA800E7A379 /* CoreDataTableViewController.m */; };
+		A2C707EF189CBDBE00E7A379 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C707EE189CBDBE00E7A379 /* Main_iPhone.storyboard */; };
+		A2C707FD189CBDD800E7A379 /* Book+API.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707F2189CBDD800E7A379 /* Book+API.m */; };
+		A2C707FE189CBDD800E7A379 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707F4189CBDD800E7A379 /* Book.m */; };
+		A2C707FF189CBDD800E7A379 /* BookGroup+API.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707F6189CBDD800E7A379 /* BookGroup+API.m */; };
+		A2C70800189CBDD800E7A379 /* BookGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707F8189CBDD800E7A379 /* BookGroup.m */; };
+		A2C70801189CBDD800E7A379 /* BookLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C707FA189CBDD800E7A379 /* BookLibrary.m */; };
+		A2C70802189CBDD800E7A379 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2C707FB189CBDD800E7A379 /* Model.xcdatamodeld */; };
+		A2C7080D189CBDF200E7A379 /* ProgressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C70804189CBDF200E7A379 /* ProgressTableViewCell.m */; };
+		A2C7080E189CBDF200E7A379 /* ViewBookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C70806189CBDF200E7A379 /* ViewBookDetailsViewController.m */; };
+		A2C7080F189CBDF200E7A379 /* ViewBookGroupDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C70808189CBDF200E7A379 /* ViewBookGroupDetailsViewController.m */; };
+		A2C70810189CBDF200E7A379 /* ViewBookGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7080A189CBDF200E7A379 /* ViewBookGroupsViewController.m */; };
+		A2C70811189CBDF200E7A379 /* ViewBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7080C189CBDF200E7A379 /* ViewBooksViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C707C0189CBD0100E7A379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C70798189CBD0100E7A379 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C7079F189CBD0100E7A379;
+			remoteInfo = Bookkeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2C707A0189CBD0100E7A379 /* Bookkeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookkeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C707A3189CBD0100E7A379 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2C707A5189CBD0100E7A379 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2C707A7189CBD0100E7A379 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2C707AB189CBD0100E7A379 /* Bookkeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bookkeeper-Info.plist"; sourceTree = "<group>"; };
+		A2C707AD189CBD0100E7A379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C707AF189CBD0100E7A379 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C707B1189CBD0100E7A379 /* Bookkeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bookkeeper-Prefix.pch"; sourceTree = "<group>"; };
+		A2C707B5189CBD0100E7A379 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2C707BB189CBD0100E7A379 /* BookkeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookkeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C707BC189CBD0100E7A379 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2C707C4189CBD0100E7A379 /* BookkeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookkeeperTests-Info.plist"; sourceTree = "<group>"; };
+		A2C707C6189CBD0100E7A379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C707C8189CBD0100E7A379 /* BookkeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookkeeperTests.m; sourceTree = "<group>"; };
+		A2C707D2189CBDA800E7A379 /* AddOrEditBookGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOrEditBookGroupViewController.h; sourceTree = "<group>"; };
+		A2C707D3189CBDA800E7A379 /* AddOrEditBookGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOrEditBookGroupViewController.m; sourceTree = "<group>"; };
+		A2C707D4189CBDA800E7A379 /* AddOrEditBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddOrEditBookViewController.h; sourceTree = "<group>"; };
+		A2C707D5189CBDA800E7A379 /* AddOrEditBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddOrEditBookViewController.m; sourceTree = "<group>"; };
+		A2C707D6189CBDA800E7A379 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2C707D7189CBDA800E7A379 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2C707D8189CBDA800E7A379 /* BookDatabaseAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDatabaseAvailability.h; sourceTree = "<group>"; };
+		A2C707D9189CBDA800E7A379 /* BookGroupBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookGroupBooksViewController.h; sourceTree = "<group>"; };
+		A2C707DA189CBDA800E7A379 /* BookGroupBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookGroupBooksViewController.m; sourceTree = "<group>"; };
+		A2C707DB189CBDA800E7A379 /* BookGroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookGroupTableViewCell.h; sourceTree = "<group>"; };
+		A2C707DC189CBDA800E7A379 /* BookGroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookGroupTableViewCell.m; sourceTree = "<group>"; };
+		A2C707DF189CBDA800E7A379 /* BooksFetchedResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksFetchedResultsViewController.h; sourceTree = "<group>"; };
+		A2C707E0189CBDA800E7A379 /* BooksFetchedResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksFetchedResultsViewController.m; sourceTree = "<group>"; };
+		A2C707E1189CBDA800E7A379 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		A2C707E2189CBDA800E7A379 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		A2C707E3189CBDA800E7A379 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		A2C707E4189CBDA800E7A379 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		A2C707EE189CBDBE00E7A379 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A2C707F1189CBDD800E7A379 /* Book+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+API.h"; sourceTree = "<group>"; };
+		A2C707F2189CBDD800E7A379 /* Book+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+API.m"; sourceTree = "<group>"; };
+		A2C707F3189CBDD800E7A379 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		A2C707F4189CBDD800E7A379 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		A2C707F5189CBDD800E7A379 /* BookGroup+API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BookGroup+API.h"; sourceTree = "<group>"; };
+		A2C707F6189CBDD800E7A379 /* BookGroup+API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BookGroup+API.m"; sourceTree = "<group>"; };
+		A2C707F7189CBDD800E7A379 /* BookGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookGroup.h; sourceTree = "<group>"; };
+		A2C707F8189CBDD800E7A379 /* BookGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookGroup.m; sourceTree = "<group>"; };
+		A2C707F9189CBDD800E7A379 /* BookLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookLibrary.h; sourceTree = "<group>"; };
+		A2C707FA189CBDD800E7A379 /* BookLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookLibrary.m; sourceTree = "<group>"; };
+		A2C707FC189CBDD800E7A379 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		A2C70803189CBDF200E7A379 /* ProgressTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressTableViewCell.h; sourceTree = "<group>"; };
+		A2C70804189CBDF200E7A379 /* ProgressTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressTableViewCell.m; sourceTree = "<group>"; };
+		A2C70805189CBDF200E7A379 /* ViewBookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBookDetailsViewController.h; sourceTree = "<group>"; };
+		A2C70806189CBDF200E7A379 /* ViewBookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBookDetailsViewController.m; sourceTree = "<group>"; };
+		A2C70807189CBDF200E7A379 /* ViewBookGroupDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBookGroupDetailsViewController.h; sourceTree = "<group>"; };
+		A2C70808189CBDF200E7A379 /* ViewBookGroupDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBookGroupDetailsViewController.m; sourceTree = "<group>"; };
+		A2C70809189CBDF200E7A379 /* ViewBookGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBookGroupsViewController.h; sourceTree = "<group>"; };
+		A2C7080A189CBDF200E7A379 /* ViewBookGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBookGroupsViewController.m; sourceTree = "<group>"; };
+		A2C7080B189CBDF200E7A379 /* ViewBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewBooksViewController.h; sourceTree = "<group>"; };
+		A2C7080C189CBDF200E7A379 /* ViewBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewBooksViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C7079D189CBD0100E7A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C707A6189CBD0100E7A379 /* CoreGraphics.framework in Frameworks */,
+				A2C707A8189CBD0100E7A379 /* UIKit.framework in Frameworks */,
+				A2C707A4189CBD0100E7A379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C707B8189CBD0100E7A379 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C707BD189CBD0100E7A379 /* XCTest.framework in Frameworks */,
+				A2C707BF189CBD0100E7A379 /* UIKit.framework in Frameworks */,
+				A2C707BE189CBD0100E7A379 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C70797189CBD0100E7A379 = {
+			isa = PBXGroup;
+			children = (
+				A2C707A9189CBD0100E7A379 /* Bookkeeper */,
+				A2C707C2189CBD0100E7A379 /* BookkeeperTests */,
+				A2C707A2189CBD0100E7A379 /* Frameworks */,
+				A2C707A1189CBD0100E7A379 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C707A1189CBD0100E7A379 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707A0189CBD0100E7A379 /* Bookkeeper.app */,
+				A2C707BB189CBD0100E7A379 /* BookkeeperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C707A2189CBD0100E7A379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707A3189CBD0100E7A379 /* Foundation.framework */,
+				A2C707A5189CBD0100E7A379 /* CoreGraphics.framework */,
+				A2C707A7189CBD0100E7A379 /* UIKit.framework */,
+				A2C707BC189CBD0100E7A379 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C707A9189CBD0100E7A379 /* Bookkeeper */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707F0189CBDD800E7A379 /* Model */,
+				A2C707EE189CBDBE00E7A379 /* Main_iPhone.storyboard */,
+				A2C707D6189CBDA800E7A379 /* AppDelegate.h */,
+				A2C707D7189CBDA800E7A379 /* AppDelegate.m */,
+				A2C707D2189CBDA800E7A379 /* AddOrEditBookGroupViewController.h */,
+				A2C707D3189CBDA800E7A379 /* AddOrEditBookGroupViewController.m */,
+				A2C707D4189CBDA800E7A379 /* AddOrEditBookViewController.h */,
+				A2C707D5189CBDA800E7A379 /* AddOrEditBookViewController.m */,
+				A2C707D8189CBDA800E7A379 /* BookDatabaseAvailability.h */,
+				A2C707D9189CBDA800E7A379 /* BookGroupBooksViewController.h */,
+				A2C707DA189CBDA800E7A379 /* BookGroupBooksViewController.m */,
+				A2C707DB189CBDA800E7A379 /* BookGroupTableViewCell.h */,
+				A2C707DC189CBDA800E7A379 /* BookGroupTableViewCell.m */,
+				A2C707DF189CBDA800E7A379 /* BooksFetchedResultsViewController.h */,
+				A2C707E0189CBDA800E7A379 /* BooksFetchedResultsViewController.m */,
+				A2C707E1189CBDA800E7A379 /* BookTableViewCell.h */,
+				A2C707E2189CBDA800E7A379 /* BookTableViewCell.m */,
+				A2C707E3189CBDA800E7A379 /* CoreDataTableViewController.h */,
+				A2C707E4189CBDA800E7A379 /* CoreDataTableViewController.m */,
+				A2C70803189CBDF200E7A379 /* ProgressTableViewCell.h */,
+				A2C70804189CBDF200E7A379 /* ProgressTableViewCell.m */,
+				A2C70805189CBDF200E7A379 /* ViewBookDetailsViewController.h */,
+				A2C70806189CBDF200E7A379 /* ViewBookDetailsViewController.m */,
+				A2C70807189CBDF200E7A379 /* ViewBookGroupDetailsViewController.h */,
+				A2C70808189CBDF200E7A379 /* ViewBookGroupDetailsViewController.m */,
+				A2C70809189CBDF200E7A379 /* ViewBookGroupsViewController.h */,
+				A2C7080A189CBDF200E7A379 /* ViewBookGroupsViewController.m */,
+				A2C7080B189CBDF200E7A379 /* ViewBooksViewController.h */,
+				A2C7080C189CBDF200E7A379 /* ViewBooksViewController.m */,
+				A2C707B5189CBD0100E7A379 /* Images.xcassets */,
+				A2C707AA189CBD0100E7A379 /* Supporting Files */,
+			);
+			path = Bookkeeper;
+			sourceTree = "<group>";
+		};
+		A2C707AA189CBD0100E7A379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707AB189CBD0100E7A379 /* Bookkeeper-Info.plist */,
+				A2C707AC189CBD0100E7A379 /* InfoPlist.strings */,
+				A2C707AF189CBD0100E7A379 /* main.m */,
+				A2C707B1189CBD0100E7A379 /* Bookkeeper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C707C2189CBD0100E7A379 /* BookkeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707C8189CBD0100E7A379 /* BookkeeperTests.m */,
+				A2C707C3189CBD0100E7A379 /* Supporting Files */,
+			);
+			path = BookkeeperTests;
+			sourceTree = "<group>";
+		};
+		A2C707C3189CBD0100E7A379 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707C4189CBD0100E7A379 /* BookkeeperTests-Info.plist */,
+				A2C707C5189CBD0100E7A379 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C707F0189CBDD800E7A379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2C707FB189CBDD800E7A379 /* Model.xcdatamodeld */,
+				A2C707F1189CBDD800E7A379 /* Book+API.h */,
+				A2C707F2189CBDD800E7A379 /* Book+API.m */,
+				A2C707F3189CBDD800E7A379 /* Book.h */,
+				A2C707F4189CBDD800E7A379 /* Book.m */,
+				A2C707F5189CBDD800E7A379 /* BookGroup+API.h */,
+				A2C707F6189CBDD800E7A379 /* BookGroup+API.m */,
+				A2C707F7189CBDD800E7A379 /* BookGroup.h */,
+				A2C707F8189CBDD800E7A379 /* BookGroup.m */,
+				A2C707F9189CBDD800E7A379 /* BookLibrary.h */,
+				A2C707FA189CBDD800E7A379 /* BookLibrary.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C7079F189CBD0100E7A379 /* Bookkeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C707CC189CBD0100E7A379 /* Build configuration list for PBXNativeTarget "Bookkeeper" */;
+			buildPhases = (
+				A2C7079C189CBD0100E7A379 /* Sources */,
+				A2C7079D189CBD0100E7A379 /* Frameworks */,
+				A2C7079E189CBD0100E7A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookkeeper;
+			productName = Bookkeeper;
+			productReference = A2C707A0189CBD0100E7A379 /* Bookkeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C707BA189CBD0100E7A379 /* BookkeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C707CF189CBD0100E7A379 /* Build configuration list for PBXNativeTarget "BookkeeperTests" */;
+			buildPhases = (
+				A2C707B7189CBD0100E7A379 /* Sources */,
+				A2C707B8189CBD0100E7A379 /* Frameworks */,
+				A2C707B9189CBD0100E7A379 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C707C1189CBD0100E7A379 /* PBXTargetDependency */,
+			);
+			name = BookkeeperTests;
+			productName = BookkeeperTests;
+			productReference = A2C707BB189CBD0100E7A379 /* BookkeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C70798189CBD0100E7A379 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kelly Walker";
+				TargetAttributes = {
+					A2C7079F189CBD0100E7A379 = {
+						DevelopmentTeam = SQGYBCW2DZ;
+					};
+					A2C707BA189CBD0100E7A379 = {
+						TestTargetID = A2C7079F189CBD0100E7A379;
+					};
+				};
+			};
+			buildConfigurationList = A2C7079B189CBD0100E7A379 /* Build configuration list for PBXProject "Bookkeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A2C70797189CBD0100E7A379;
+			productRefGroup = A2C707A1189CBD0100E7A379 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C7079F189CBD0100E7A379 /* Bookkeeper */,
+				A2C707BA189CBD0100E7A379 /* BookkeeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C7079E189CBD0100E7A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C707EF189CBDBE00E7A379 /* Main_iPhone.storyboard in Resources */,
+				A2C707AE189CBD0100E7A379 /* InfoPlist.strings in Resources */,
+				A2C707B6189CBD0100E7A379 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C707B9189CBD0100E7A379 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C707C7189CBD0100E7A379 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C7079C189CBD0100E7A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C70800189CBDD800E7A379 /* BookGroup.m in Sources */,
+				A2C707EB189CBDA800E7A379 /* BooksFetchedResultsViewController.m in Sources */,
+				A2C7080E189CBDF200E7A379 /* ViewBookDetailsViewController.m in Sources */,
+				A2C707B0189CBD0100E7A379 /* main.m in Sources */,
+				A2C707E6189CBDA800E7A379 /* AddOrEditBookViewController.m in Sources */,
+				A2C70811189CBDF200E7A379 /* ViewBooksViewController.m in Sources */,
+				A2C707FE189CBDD800E7A379 /* Book.m in Sources */,
+				A2C707ED189CBDA800E7A379 /* CoreDataTableViewController.m in Sources */,
+				A2C707E5189CBDA800E7A379 /* AddOrEditBookGroupViewController.m in Sources */,
+				A2C707FD189CBDD800E7A379 /* Book+API.m in Sources */,
+				A2C7080D189CBDF200E7A379 /* ProgressTableViewCell.m in Sources */,
+				A2C7080F189CBDF200E7A379 /* ViewBookGroupDetailsViewController.m in Sources */,
+				A2C707FF189CBDD800E7A379 /* BookGroup+API.m in Sources */,
+				A2C70801189CBDD800E7A379 /* BookLibrary.m in Sources */,
+				A2C70802189CBDD800E7A379 /* Model.xcdatamodeld in Sources */,
+				A2C707E9189CBDA800E7A379 /* BookGroupTableViewCell.m in Sources */,
+				A2C707E8189CBDA800E7A379 /* BookGroupBooksViewController.m in Sources */,
+				A2C707EC189CBDA800E7A379 /* BookTableViewCell.m in Sources */,
+				A2C70810189CBDF200E7A379 /* ViewBookGroupsViewController.m in Sources */,
+				A2C707E7189CBDA800E7A379 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C707B7189CBD0100E7A379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C707C9189CBD0100E7A379 /* BookkeeperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C707C1189CBD0100E7A379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C7079F189CBD0100E7A379 /* Bookkeeper */;
+			targetProxy = A2C707C0189CBD0100E7A379 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C707AC189CBD0100E7A379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C707AD189CBD0100E7A379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2C707C5189CBD0100E7A379 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C707C6189CBD0100E7A379 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C707CA189CBD0100E7A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2C707CB189CBD0100E7A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C707CD189CBD0100E7A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookkeeper/Bookkeeper-Prefix.pch";
+				INFOPLIST_FILE = "Bookkeeper/Bookkeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2C707CE189CBD0100E7A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookkeeper/Bookkeeper-Prefix.pch";
+				INFOPLIST_FILE = "Bookkeeper/Bookkeeper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2C707D0189CBD0100E7A379 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bookkeeper.app/Bookkeeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookkeeper/Bookkeeper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BookkeeperTests/BookkeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2C707D1189CBD0100E7A379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bookkeeper.app/Bookkeeper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bookkeeper/Bookkeeper-Prefix.pch";
+				INFOPLIST_FILE = "BookkeeperTests/BookkeeperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C7079B189CBD0100E7A379 /* Build configuration list for PBXProject "Bookkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C707CA189CBD0100E7A379 /* Debug */,
+				A2C707CB189CBD0100E7A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C707CC189CBD0100E7A379 /* Build configuration list for PBXNativeTarget "Bookkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C707CD189CBD0100E7A379 /* Debug */,
+				A2C707CE189CBD0100E7A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2C707CF189CBD0100E7A379 /* Build configuration list for PBXNativeTarget "BookkeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C707D0189CBD0100E7A379 /* Debug */,
+				A2C707D1189CBD0100E7A379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2C707FB189CBDD800E7A379 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2C707FC189CBDD800E7A379 /* Model.xcdatamodel */,
+			);
+			currentVersion = A2C707FC189CBDD800E7A379 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2C70798189CBD0100E7A379 /* Project object */;
+}
